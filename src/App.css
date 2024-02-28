@@ -1,0 +1,68 @@
+/* App.css */
+body{
+    display: flex;
+    justify-content: space-around;
+}
+.app {
+    width: 240px;
+    text-align: center;
+    background-color: #FDF0D5;
+    padding: 20px 0px 20px 0px;
+    border-radius: 5px;
+  }
+  
+  .sections {
+    /* margin-bottom: 20px; */
+  }
+  
+  .sections button {
+    margin: 0 2px;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  
+  .timer {
+    font-size: 80px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .timer > p{
+    margin: 0;
+  }
+  
+  .controls button {
+    margin: 0 2px;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  button {
+    border: none;
+    color: #fff;
+    background: #F0544F;
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #F0544F;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
